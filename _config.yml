@@ -16,22 +16,22 @@ author: Cindy Nguyen
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Resume: "https://beautifuljekyll.com"
-    - Tramscripts: "https://www.markdowntutorial.com/"
-  Home: "https://deanattali.com"
+    - Resume: 
+    - Tramscripts: 
+  Home: "ceenguyeen.github.io"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+#round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: /path/to/image
+#title-img: /path/to/image
 
 
 # --- Footer social media links --- #
@@ -39,7 +39,7 @@ title-img: /path/to/image
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  #email: "cnguyen.msc2021@ivey.ca"
+  email: "cindy.p.a.nguyen@gmail.com"
   #facebook: deanattali
   #github: ceenguyeen
   #twitter: daattali
@@ -95,7 +95,7 @@ keywords: "Cindy Nguyen, GitHub, MSc, Ivey, Business, Analytics, R, Python, SQL"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#ebe0df"
+navbar-col: "#FFFFFF"
 navbar-text-col: "#fc6153"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
@@ -104,7 +104,7 @@ link-col: "#008AFF"
 hover-col: "#fc6153"
 footer-col: "#ebe0df"
 footer-text-col: "#fc6153"
-footer-link-col: "#404040"
+footer-link-col: "fc6153"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
