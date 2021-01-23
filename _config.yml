@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: My GitHub Portfolio
+title: GitHub Portfolio
 
 # Your name to show in the footer
 author: Cindy Nguyen
@@ -39,7 +39,7 @@ navbar-links:
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "cindy.p.a.nguyen@gmail.com"
+  email: "cnguyen.msc2021@ivey.ca"
   #facebook: deanattali
   #github: ceenguyeen
   #twitter: daattali
@@ -100,9 +100,9 @@ navbar-text-col: "#fc6153"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
-link-col: "#008AFF"
+link-col: "#fc6153"
 hover-col: "#fc6153"
-footer-col: "#ebe0df"
+footer-col: "#faf5f2"
 footer-text-col: "#fc6153"
 footer-link-col: "fc6153"
 
