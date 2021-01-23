@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Learn a little bit more about me and my story.
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi my name is Cindy, 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I am an MSc Business Analytics candidate at the Ivey School of Business, who wants to leverage my leadership and analytical skills to make a positive impact through my work and inspire those around me to do the same. As businesses become increasingly technologically dependent and consumers become increasingly socially aware, I want to play a role in helping organizations do good by doing good.
 
-What else do you need?
+Outside of school and work, I enjoy hiking, travelling, dancing and reading biographies/personal finance books. 
+
+My favourite quote is: “Fight for things that you care about, but do it in a way that will lead others to join you.” - Ruth Bader Ginsburg
+My favourite book is: Outliers by Malcolm Gladwell
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+
