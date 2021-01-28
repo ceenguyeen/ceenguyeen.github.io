@@ -1,5 +1,5 @@
 ---
-layout: page
-title: Data Posts
-subtitle: A summary of my analytical projects.
+layout: post
+title: Financial Aid Programs for State Prisons
+subtitle: How effective are financial aid programs in reducing recidivism?
 ---
