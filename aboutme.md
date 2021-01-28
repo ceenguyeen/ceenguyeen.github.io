@@ -14,10 +14,7 @@ My favourite quote is: “Fight for things that you care about, but do it in a w
 
 My favourite book is: Outliers by Malcolm Gladwell
 
-My favourite food is: homemade Vietnamese food 
-
-My favourite TV show is: There is too many to list because I have a horrible bingeing problem but some shows I liked that many people may not have hear of is Halt and Catch Fire and Mindhunters.
-
+My favourite food is: Homemade Vietnamese food 
 
 ![Anh Cindy Nguyen](assets/img/profile.jpg)
 
