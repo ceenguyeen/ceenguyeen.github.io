@@ -16,7 +16,15 @@ My favourite book is: Outliers by Malcolm Gladwell
 
 My favourite food is: Homemade Vietnamese food 
 
-![Anh Cindy Nguyen](assets/img/profile.jpg)
+<p>
+  <![Anh Cindy Nguyen](assets/img/profile.jpg)>
+</p>
+p {
+  text-align: center;
+}
+img {
+  display: inline-block;
+}
 
 ### My story
 
