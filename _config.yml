@@ -17,7 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Resume: "resume"
-    - Tramscripts: "transcript"
+    - Transcripts: "transcript"
   Home: "ceenguyeen.github.io"
 
 # --- Logo --- #
