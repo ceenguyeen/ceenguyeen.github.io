@@ -41,15 +41,15 @@ Steps of Analysis:
 
 1. Correlation Analysis
 
-![Correlation Matrix](assets/img/Arrest_corr.png){: .mx-auto.d-block :}
+![Correlation Matrix](assets/img/Arrest_corr.png)
 
 2. Logistic Regression
 
-![Logistic Regression results](assets/img/Arrest_reg.png){: .mx-auto.d-block :}
+![Logistic Regression results](assets/img/Arrest_reg.png)
 
 3. Confusion Matrix 
 
-![Confusion Matrix](assets/img/Arrest_CM.png){: .mx-auto.d-block :}
+![Confusion Matrix](assets/img/Arrest_CM.png)
 
 ## Conclusions
 
