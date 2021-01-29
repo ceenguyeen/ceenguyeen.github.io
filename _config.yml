@@ -16,7 +16,7 @@ author: Cindy Nguyen
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Resume: 
+    - Resume: "resume"
     - Tramscripts: 
   Home: "ceenguyeen.github.io"
 
