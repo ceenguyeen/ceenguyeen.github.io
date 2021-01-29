@@ -43,27 +43,27 @@ Steps of Analysis:
 
 1. Correlation Analysis
 
-![Correlation](/assets/img/corr.jpg)
+    ![Correlation](/assets/img/corr.jpg)
 
 2. Logistic Regression
 
-![Logistic Regression results](/assets/img/regress.jpg)
+    ![Logistic Regression results](/assets/img/regress.jpg)
 
 3. Confusion Matrix 
 
-![Confusion Matrix](/assets/img/confusion.jpg)
+    ![Confusion Matrix](/assets/img/confusion.jpg)
 
 4. Prediction
 
-The effects of financial aid in comparison to employment can be further illustrated in this chart where I took an average convict (age 25 with less than high school education and 3 prior convictions) and predicted the probability of them re-offending after being released depending on whether they received financial aid and the number of weeks they were employed. Note that predictions using this model are made with 73% accuracy.
+   The effects of financial aid in comparison to employment can be further illustrated in this chart where I took an average convict (age 25 with less than high    school education and 3 prior convictions) and predicted the probability of them re-offending after being released depending on whether they received financial aid and the number of weeks they were employed. Note that predictions using this model are made with 73% accuracy.
 
-| Probability of Recidivism | Financial Aid | Weeks Employed | 
-| :------ |:------ | :------ | 
-| 49% | Y | 0 | 
-| 59% | N | 0 | 
-| 44% | N | 10 | 
-| 22% | N | 26 | 
-| 16% | Y | 26 | 
+  | Probability of Recidivism | Financial Aid | Weeks Employed | 
+  | :------ |:------ | :------ | 
+  | 49% | Y | 0 | 
+  | 59% | N | 0 | 
+  | 44% | N | 10 | 
+  | 22% | N | 26 | 
+  | 16% | Y | 26 | 
 
 ## Conclusions
 
