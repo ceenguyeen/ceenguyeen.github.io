@@ -45,11 +45,11 @@ Steps of Analysis:
 
 2. Logistic Regression
 
-![Logistic Regression results](/assets/img/Arrest_reg.png)
+![Logistic Regression results](/assets/img/regress.jpg)
 
 3. Confusion Matrix 
 
-![Confusion Matrix](/assets/img/Arrest_CM.png)
+![Confusion Matrix](/assets/img/confusion.jpg)
 
 ## Conclusions
 
