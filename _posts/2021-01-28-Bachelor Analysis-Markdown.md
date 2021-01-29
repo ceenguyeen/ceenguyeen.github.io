@@ -25,10 +25,6 @@ Here's a useless table:
 | Two | Three | One |
 
 
-Will you accept this rose?
-
-![Crepe](assets/img/maxresdefault.jpg)
-
 It can also be centered!
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
