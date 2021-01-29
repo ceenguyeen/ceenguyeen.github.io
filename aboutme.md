@@ -22,7 +22,7 @@ My favourite food is: Homemade Vietnamese food
 p {
   text-align: center;
 }
-img {
+assets/img/profile.jpg {
   display: inline-block;
 }
 
