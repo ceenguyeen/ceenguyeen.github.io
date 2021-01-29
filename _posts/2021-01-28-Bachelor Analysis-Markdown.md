@@ -3,6 +3,7 @@ layout: post
 title: Will you accept this rose?
 subtitle: A visualization of data on the Bachelor franchise using data scraped from Wikipedia.
 thumbnail-img: /assets/img/maxresdefault.jpg
+cover-img: /assets/img/roses.jpg
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [ptyhon, SQL, fun]
