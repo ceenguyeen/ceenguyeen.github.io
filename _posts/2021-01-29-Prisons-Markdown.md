@@ -41,7 +41,7 @@ Steps of Analysis:
 
 1. Correlation Analysis
 
-![Correlation Matrix](assets/img/corr.jpg)
+![Correlation](assets/img/corr.jpg)
 
 2. Logistic Regression
 
@@ -55,10 +55,11 @@ Steps of Analysis:
 
 Based on my analysis, the new financial aid program implemented by state prisons does not effectively prevent recidivism. When looking at different characteristics and their impact on recidivism, I found that whether or not a convict received financial aid following their release did not have a significant effect. Instead, I found that the number of weeks the convict was employed during the 52 weeks in which they were released, was a more effective preventative measure in comparison to financial aid. Therefore, my recommendation is to stop the financial aid program and implement a program that helps released convicts find gainful employment. The state prisons can do this by re-allocating the financial aid funds to help released convicts find employment, some potential ideas include:
 
-•	Subsidizing fees for certifications required for employment, an example would include fees for the Ontario College of Trades.
-o	Certificate of Qualification Exam (Ontario College of Trades) = $150
+•	Subsidizing fees for certifications required for employment (ex. Ontario College of Trades).
+
 •	Creating partnerships with employers who will hire ex-convicts by subsidizing pay.
-•	Creating programs that help convicts develop skills for employment, some examples would include filling out job applications, navigating job boards, and creating a resume.
+
+•	Creating programs that help convicts develop skills for employment.
 
 The effects of financial aid in comparison to employment can be further illustrated in this chart where I took an average convict (age 25 with less than high school education and 3 prior convictions) and predicted the probability of them re-offending after being released depending on whether they received financial aid and the number of weeks they were employed. Note that predictions using this model are made with 73% accuracy.
 
