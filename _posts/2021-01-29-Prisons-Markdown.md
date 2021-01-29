@@ -41,23 +41,23 @@ Steps of Analysis:
 
 1. Correlation Analysis
 
-![Correlation](assets/img/corr.jpg)
+![Correlation](/assets/img/corr.jpg)
 
 2. Logistic Regression
 
-![Logistic Regression results](assets/img/Arrest_reg.png)
+![Logistic Regression results](/assets/img/Arrest_reg.png)
 
 3. Confusion Matrix 
 
-![Confusion Matrix](assets/img/Arrest_CM.png)
+![Confusion Matrix](/assets/img/Arrest_CM.png)
 
 ## Conclusions
 
 Based on my analysis, the new financial aid program implemented by state prisons does not effectively prevent recidivism. When looking at different characteristics and their impact on recidivism, I found that whether or not a convict received financial aid following their release did not have a significant effect. Instead, I found that the number of weeks the convict was employed during the 52 weeks in which they were released, was a more effective preventative measure in comparison to financial aid. Therefore, my recommendation is to stop the financial aid program and implement a program that helps released convicts find gainful employment. The state prisons can do this by re-allocating the financial aid funds to help released convicts find employment, some potential ideas include:
 
-•	Subsidizing fees for certifications required for employment (ex. Ontario College of Trades).
+•	Subsidizing fees for certifications required for employment. 
 
-•	Creating partnerships with employers who will hire ex-convicts by subsidizing pay.
+•	Creating partnerships with employers who will hire ex-convicts.
 
 •	Creating programs that help convicts develop skills for employment.
 
