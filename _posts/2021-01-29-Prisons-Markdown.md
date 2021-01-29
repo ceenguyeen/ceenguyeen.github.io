@@ -39,7 +39,7 @@ install.packages('e1071', dependencies=TRUE)
 library(caret)
 confusionMatrix(as.factor(classification),as.factor(actual))
 ```
-Steps of Analysis:
+### Steps of Analysis:
 
 **Correlation Analysis**
 
