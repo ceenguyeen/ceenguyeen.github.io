@@ -41,7 +41,7 @@ Steps of Analysis:
 
 1. Correlation Analysis
 
-![Correlation Matrix](assets/img/Arrest_corr.png)
+![Correlation Matrix](assets/img/corr.jpg)
 
 2. Logistic Regression
 
