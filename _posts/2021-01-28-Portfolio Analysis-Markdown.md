@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The 2020 stock market
+title: Portfolio Construction 
 subtitle: Using Python to construct and analyze portfolios across different industries.
 cover-img: /assets/img/download.jpg
 thumbnail-img: /assets/img/finance.jpg
