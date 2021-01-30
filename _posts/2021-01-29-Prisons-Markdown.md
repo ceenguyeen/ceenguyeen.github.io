@@ -7,13 +7,15 @@ thumbnail-img: /assets/img/recidivism.jpg
 
 ## What is recidivism?
 
-According to the National Institute of Justice, recidivism is defined as "Recidivism is one of the most fundamental concepts in criminal justice. It refers to a person's relapse into criminal behavior, often after the person receives sanctions or undergoes intervention for a previous crime".
+According to the National Institute of Justice, recidivism is defined as "one of the most fundamental concepts in criminal justice. It refers to a person's relapse into criminal behavior, often after the person receives sanctions or undergoes intervention for a previous crime".
+
+## The Financial Aid Program
+
+State prisons are testing a new Financial Aid program on recently released convicts and were wondering whether they should move forward would implementing the program. Of the released convicts, 50% recieved financial aid at random and were followed for 52 weeks following their release to determine whether or not they re-offended.
 
 ## Analysis
 
-State prisons have tested a new Financial Aid program on recently released convicts and were wondering whether they should move forward would implmenting the program. Of the released convicts, 50% recieved financial aid at random and were followed for 52 weeks following their release. I used logistic regression in R to develop a model that was used to evaluate the impact of different characteristics on recidivism and predict the probability of recidivism for a convict with given characteristics. 
-
-Based on the model below, the only characteristic that significantly impacts recidivism is weeks of employment (EmpW) and the formula for probability of recidivism is as follows:
+I used logistic regression in R to develop a model that was used to evaluate the impact of different characteristics on recidivism and predict the probability of recidivism for a convict with given characteristics. Based on the model below, the only characteristic that significantly impacts recidivism is weeks of employment (EmpW) and the formula for probability of recidivism is as follows:
 
 Probability of Recidivism = 0.665 – 0.095 (financial aid) – 0.011 (age) + 0.094 (race) + 0.055 (work exp.) + 0.016 (prior convictions) – 0.015 (week employed) – 0.203 (education) + 0.006 (parole) – 0.016 (marital status)
 
@@ -55,7 +57,7 @@ confusionMatrix(as.factor(classification),as.factor(actual))
 
 **Prediction**
 
-The effects of financial aid in comparison to employment can be further illustrated in this chart where I took an average convict (age 25 with less than high    school education and 3 prior convictions) and predicted the probability of them re-offending after being released depending on whether they received financial aid and the number of weeks they were employed. Note that predictions using this model are made with 73% accuracy.
+The effects of financial aid in comparison to employment can be further illustrated in this chart where I took an average convict (age 25 with less than high school education and 3 prior convictions) and predicted the probability of them re-offending after being released depending on whether they received financial aid and the number of weeks they were employed. Note that predictions using this model are made with 73% accuracy.
 
   | Probability of Recidivism | Financial Aid | Weeks Employed | 
   | :------ |:------ | :------ | 
