@@ -10,9 +10,13 @@ tags: [finance, python]
 
 # What is the best way to construct a Portfolio and minimize downside risks?
 
-Every investors goal is to maximize upside reward and minimize downside risks, but what is the best way to do this? There are multiple theoretical techniques that can be used to construct a portfolio and minimize downside risks. 
+Every investor's goal is to maximize upside reward and minimize downside risk, but what is the best way to do this? There are multiple theoretical techniques that can be used to construct a portfolio and minimize downside risks.
+
+The data used for this analysis is the monthly returns across 30 industries from 1926 to 2018. 
 
 ## 1. Maximum Sharpe Ratio Portfolio
+
+This is also called the tangency portfolio. It is meant to provide the high reward per unit of risk so that there is no exposure to unrewarded risks (specific risks). In other words, this is the portfolio with the maximum Sharpe Ratio (a measure of risk = (return - risk-free) / voltaility). This portfolio is constructed by plotting the returns, establishing the Efficient Frontier, creating the Capital Market Line (connecting the MSR Portfolio to the risk-free rate). Portfolios along this CML line can provide more profits than portfolios on the Efficient Frontier.
 
 ```python
 def msr(riskfree_rate, er, cov):
@@ -38,7 +42,15 @@ def msr(riskfree_rate, er, cov):
     return results.x
 ```
 
+When looking at the Food and Steel industries, the MSR portfolios is shown by the orange line on the below graph:
+
+![Max Sharpe Ratio Portfolios](/assets/img/MSR.jpg)
+
 ## 2. Global Minimum Variance Portfolio
+
+This is an extension of the MSR portfolio and a more realistic approach as we would not have access to return information prior to investing and therefore could not accurately construct a MSR portfolio. To use the MSR technique we would need to estimate expected returns and covariance which would lead to estimation errors.
+
+The Global Minimum Variance Portfolio is reduces estimation errors by taking the portfolio on the efficient frontier with the lowest variance (risk) regardless of expected return. This is because there are often more estimation errors with returns thatn covariance.
 
 ```python
 def gmv(cov):
@@ -46,7 +58,14 @@ def gmv(cov):
     return msr(0, np.repeat(1,n),cov)
 ```
 
+When looking at the Food and Steel industries, the GMV portfolios is shown by the green dot below in comparison to the MSR portfolio shown by the orange line on the below graph:
+
+![Global Minimum Variance Portfolio](/assets/img/GMV.jpg)
+
+
 ## 3. Constant Proportion Portfolio
+
+The final portfolio we will discuss is a dynamic portfolio that requires maintenance to evaluate the allocation to safe and risky assets in order to maintain a floor (wealth preservation level that is established by the investor). Unlike diversification (which fails to address market risks or protect investors when the marker crashes) and hedging (which protects investors against downside risks while proportionately decreasing upside rewards), CPPI allows for downside protection wil also allowing for upside potential. In order for this technique to be successful investors need to re-balance their portfolio and determine their risky asset allocation depending on the voltaility of the market. The downside to this portfolio is the need for constant re-balancing to ensure efficacy.
 
 ```python
 def cppi(risky_r, safe_r=None, m=3, start=1000,floor=0.8,riskfree_rate=0.03, drawdown=None):
@@ -99,18 +118,12 @@ def cppi(risky_r, safe_r=None, m=3, start=1000,floor=0.8,riskfree_rate=0.03, dra
     return result 
 ```
 
+When looking at the Auto industry, we can see that using the CPPI strategy (blue line) would protect investors from large downside risks during the financial crisis in 2008-2009. The horizontal line represents the floor, which protects investors from losses beyond this constraint.
 
-Here's a table of the monthly returns from the 6 industries that I analyzed in this project:
+![CPPI Strategy](/assets/img/CPPI.jpg)
 
-| Date | Health | Autos | Finance | Oil | Wholesale | Retail
-| :---- |:---- | :---- | :---- |:---- | :---- | :---- |
-| 2008-01 | -0.0455 | -0.0449 | -0.0123 | -0.0953 | -0.0409 | 0.0173
-| 2008-02 | -0.0090 | -0.0692 | -0.1072 | 0.0711 | -0.0217 | -0.0614
-| 2008-03 | -0.0179 | -0.0393 | -0.0379 | -0.02655 | -0.0202 | 0.0256
-| 2008-04 | 0.0042 | 0.1411 | -0.0566 | 0.1040 | 0.0134 | 0.0590
-| 2008-05 | 0.0163 | -0.0310 | -0.0412 | 0.0372 | 0.0708 | 0.0019
+## 4. Asset-Liability Management
 
-
-And here are the results of the analysis:
+The last option is for investors to construct two portfolios: a Liability Hedging Portolio and Performance Seeking Portfolio. It is important for investors to consider both their assets and liabilities when investing by looking at the funding ratio as opposed to solely focusing on the value of your assets. 
 
 
