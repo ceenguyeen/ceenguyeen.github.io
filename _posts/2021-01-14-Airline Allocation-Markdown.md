@@ -17,7 +17,7 @@ To begin this analysis, we have the capacity of the plane, the cost of each fare
 
 To conduct this analysis we used Excel to run a What-if analysis as shown below:
 
-![What-if Analysis] (/assets/img/Whatif.jpg)
+![What-if Analysis](/assets/img/Whatif.jpg)
 
 We ran a one-way data table for different protection levels to evaluate the level at which we would be most profitable based on 1000 trials. We used the historical demand distribution and the rand() function in Excel to simulate demand. 
 
