@@ -15,32 +15,32 @@ You run a small business that sells prepared meals. Every production run of a ne
 The information we have is as stated below:
 
 |    |  In Dollars($)  | 
-| :--- |:--- |
+| :---: |:---: |
 | Cost | 8 | 
 | Price | 11 |
 | Salvage Price | 6 | 
 | Shortage Cost | 5 | 
 
 
+Changes in demand
 
 |   Probability |  Demand Change | 
-| :--- |:--- |
+| :---: |:---: |
 | 25% | 5 to 10% | 
 | 50% | -5 to 5% |
 | 25% | -10 to -5% | 
 
-
+Salvage potential
 
 |   Probability |  Percent Salvage (Large Demand Growth) | 
-| :----- |:--- |
+| :-----: |:---: |
 | 33% | 10% | 
 | 33% | 20% |
 | 33% | 30% | 
 
 
-
 |   Probability |  Percent Salvage (Small Demand Growth) | 
-| :----- |:--- |
+| :-----: |:---: |
 | 20% | 10% | 
 | 60% | 20% |
 | 20% | 30% | 
