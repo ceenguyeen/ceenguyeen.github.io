@@ -21,11 +21,15 @@ The information we have is as stated below:
 | Salvage Price | 6 | 
 | Shortage Cost | 5 | 
 
+
+
 |   Probability |  Demand Change | 
 | :--- |:--- |
 | 25% | 5 to 10% | 
 | 50% | -5 to 5% |
 | 25% | -10 to -5% | 
+
+
 
 |   Probability |  Percent Salvage (Large Demand Growth) | 
 | :----- |:--- |
@@ -33,11 +37,15 @@ The information we have is as stated below:
 | 33% | 20% |
 | 33% | 30% | 
 
+
+
 |   Probability |  Percent Salvage (Small Demand Growth) | 
 | :----- |:--- |
 | 20% | 10% | 
 | 60% | 20% |
 | 20% | 30% | 
+
+
 
 ## Analysis
 
