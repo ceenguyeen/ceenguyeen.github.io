@@ -10,6 +10,15 @@ tags: [Excel, Simulation]
 
 ## Problem Statement
 
+You run a small business that sells prepared meals. Every production run of a new meal lasts 3 weeks and then the meal is changed for the following 3 weeks. At the beginning of each production run, you must determine how many meals to produce per week. Any meals that are not sold can be salvaged and sold at a lower cost and you estimate that any customer who is turned away would cost you a fixed amount of money. 
+
+The information we have is as stated below:
+
+
+
 ## Analysis
+
+
+![Simulation](/assets/img/Simulation.jpg)
 
 ## Conclusion
