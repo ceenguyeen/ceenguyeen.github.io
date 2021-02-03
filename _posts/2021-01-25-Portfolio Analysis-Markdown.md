@@ -8,7 +8,7 @@ share-img: /assets/img/stocks.jpg
 tags: [finance, python]
 ---
 
-# What is the best way to construct a Portfolio and minimize downside risks?
+# What strategies can you use to construct a profitable portfolio and minimize downside risks?
 
 Every investor's goal is to maximize upside reward and minimize downside risk, but what is the best way to do this? There are multiple theoretical techniques that can be used to construct a portfolio and minimize downside risks.
 
