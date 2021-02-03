@@ -2,9 +2,9 @@
 layout: post
 title: Portfolio Construction 
 subtitle: Using Python to construct and analyze portfolios across different industries.
-cover-img: /assets/img/download.jpg
+cover-img: /assets/img/stocks.jpg
 thumbnail-img: /assets/img/finance.jpg
-share-img: /assets/img/download.jpg
+share-img: /assets/img/stocks.jpg
 tags: [finance, python]
 ---
 
@@ -16,7 +16,7 @@ The data used for this analysis is the monthly returns across 30 industries from
 
 ## 1. Maximum Sharpe Ratio Portfolio
 
-This is also called the tangency portfolio. It is meant to provide the high reward per unit of risk so that there is no exposure to unrewarded risks (specific risks). In other words, this is the portfolio with the maximum Sharpe Ratio (a measure of risk = (return - risk-free) / voltaility). This portfolio is constructed by plotting the returns, establishing the Efficient Frontier, creating the Capital Market Line (connecting the MSR Portfolio to the risk-free rate). Portfolios along this CML line can provide more profits than portfolios on the Efficient Frontier.
+This is also called the tangency portfolio. It is meant to provide the highest reward per unit of risk so that there is no exposure to unrewarded risks (specific risks). In other words, this is the portfolio with the maximum Sharpe Ratio (a measure of risk = (return - risk-free) / voltaility). This portfolio is constructed by plotting the returns, establishing the Efficient Frontier, creating the Capital Market Line (connecting the MSR Portfolio to the risk-free rate). Portfolios along this CML line can provide more profits than portfolios on the Efficient Frontier.
 
 ```python
 def msr(riskfree_rate, er, cov):
@@ -50,7 +50,7 @@ When looking at the Food and Steel industries, the MSR portfolios is shown by th
 
 This is an extension of the MSR portfolio and a more realistic approach as we would not have access to return information prior to investing and therefore could not accurately construct a MSR portfolio. To use the MSR technique we would need to estimate expected returns and covariance which would lead to estimation errors.
 
-The Global Minimum Variance Portfolio is reduces estimation errors by taking the portfolio on the efficient frontier with the lowest variance (risk) regardless of expected return. This is because there are often more estimation errors with returns thatn covariance.
+The Global Minimum Variance Portfolio reduces estimation errors by taking the portfolio on the efficient frontier with the lowest variance (risk) regardless of expected return. This is because there are often more estimation errors with returns thatn covariance.
 
 ```python
 def gmv(cov):
@@ -65,7 +65,7 @@ When looking at the Food and Steel industries, the GMV portfolios is shown by th
 
 ## 3. Constant Proportion Portfolio
 
-The final portfolio we will discuss is a dynamic portfolio that requires maintenance to evaluate the allocation to safe and risky assets in order to maintain a floor (wealth preservation level that is established by the investor). Unlike diversification (which fails to address market risks or protect investors when the marker crashes) and hedging (which protects investors against downside risks while proportionately decreasing upside rewards), CPPI allows for downside protection wil also allowing for upside potential. In order for this technique to be successful investors need to re-balance their portfolio and determine their risky asset allocation depending on the voltaility of the market. The downside to this portfolio is the need for constant re-balancing to ensure efficacy.
+The final portfolio we will discuss is a dynamic portfolio that requires maintenance to evaluate the allocation to safe and risky assets in order to maintain a floor (wealth preservation level that is established by the investor). Unlike diversification (which fails to address market risks or protect investors when the market crashes) and hedging (which protects investors against downside risks while proportionately decreasing upside rewards), CPPI allows for downside protection wil also allowing for upside potential. In order for this technique to be successful, investors need to re-balance their portfolio and determine their risky asset allocation depending on the voltaility of the market. The downside to this portfolio is the need for constant re-balancing to ensure efficacy.
 
 ```python
 def cppi(risky_r, safe_r=None, m=3, start=1000,floor=0.8,riskfree_rate=0.03, drawdown=None):
@@ -124,6 +124,6 @@ When looking at the Auto industry, we can see that using the CPPI strategy (blue
 
 ## 4. Asset-Liability Management
 
-The last option is for investors to construct two portfolios: a Liability Hedging Portolio and Performance Seeking Portfolio. It is important for investors to consider both their assets and liabilities when investing by looking at the funding ratio as opposed to solely focusing on the value of your assets. 
+The last risk management strategy is Asset-Liability management, which is utilized by banks and pension funds. This involved constructing two portfolios: a Liability Hedging Portolio and Performance Seeking Portfolio. It is important for investors to consider both their assets and liabilities when investing by looking at the funding ratio as opposed to solely focusing on the value of your assets. This method ensures that investors are investing their money in ways that allow them to cover their liabilities.
 
 
