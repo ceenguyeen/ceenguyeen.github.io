@@ -11,8 +11,8 @@ comments: false
 
 **A comparison between the Bachelor and Bachelorette**
 
-<script src="https://www.example.com/javascripts/api/tableau-2.js"></script>
-<div id="tableauViz"></div>
+<iframe seamless frameborder="0" src="https://public.tableau.com/profile/anh.cindy.nguyen#!/vizhome/Bachelor_16123269153700/Dashboard2?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
+
 
 function initializeViz() {
 var placeholderDiv = document.getElementById("tableauViz");
