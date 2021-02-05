@@ -11,6 +11,8 @@ comments: false
 
 **A comparison between the Bachelor and Bachelorette**
 
+The goal of this dashbaord is to visualize differences in the viewership, success and contestants between the two Bachelor franchise shows. From the data, you can see that the contestants for the Bachelor are much younger and there are fewer successful relationships that result from the show in comparison to the Bachelorette.
+
 <div class='tableauPlaceholder' id='viz1612475081756' style='position: relative'><noscript><a href='#'>
 <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ba&#47;Bachelor_16123269153700&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a>
 </noscript>
