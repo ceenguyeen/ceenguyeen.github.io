@@ -12,7 +12,7 @@ tags: [Excel, Simulation]
 
 Kevin runs a small business that sells pre-prepared meals. Every production run of a new meal lasts 3 weeks and then the meal is changed for the following 3 weeks. At the beginning of each production run, Kevin must determine how many meals to produce per week. Any meals that are not sold can be salvaged and sold at a lower cost and you estimate that any customer who is turned away would cost you a fixed amount of money.
 
-**General Information
+**General Information**
 
 |    |  In Dollars($)  | 
 | :---: |:---: |
@@ -22,7 +22,7 @@ Kevin runs a small business that sells pre-prepared meals. Every production run 
 | Shortage Cost | 5 | 
 
 
-**Changes in demand
+**Changes in demand**
 
 |   Probability |  Demand Change | 
 | :---: |:---: |
@@ -30,7 +30,7 @@ Kevin runs a small business that sells pre-prepared meals. Every production run 
 | 50% | -5 to 5% |
 | 25% | -10 to -5% | 
 
-**Salvage potential
+**Salvage potential**
 
 |   Probability |  Percent Salvage (Large Demand Growth) | 
 | :-----: |:---: |
