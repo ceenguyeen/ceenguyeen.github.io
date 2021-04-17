@@ -15,8 +15,8 @@ a model that will product which variables have the largest impact on a company s
 
 ## The Analysis
 
-# Preliminary Analysis
+**Preliminary Analysis**
 First, I plotted the probability of surviving pass each point in time to evaluate the distribution of the data. This can validate which type of survival analysis to conduct. Two plots were made to test the exponential and weibull distribution.
 
-# Survival Analysis 
+**Survival Analysis **
 To evaluate the likelihood of survival and the significant variables that impact survival, I conducted a survival analysis using three different methods.
