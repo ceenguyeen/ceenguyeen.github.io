@@ -9,6 +9,7 @@ tags: [finance, python]
 ---
 
 # Popular Shorted Stocks
+
 Short Selling is when an investor borrows a stock to sell, with plans to repurchase the stock at a later point in time to return to the lender. 
 Investors do this when they believe that the price of the stock will decrease, allowing them to make money by selling the stock now at a higher 
 price and buying at a lower price at a later point. The problem with short selling is that if the stock price increases, the investor will lose money. 
@@ -16,17 +17,19 @@ Usually, experienced investors such as hedge funds partake in short selling.
 
 Two popular examples of short selling gone wrong include:
 
-## Tesla
+**Tesla
+
 Tesla is a stock that have been of interest to many investors over the past few years. A few years ago, many short sellers targeted Tesla, beliving that 
 the company's stock will decrease. However, the company's profits began increasing causing the company stock to rise. This led to  big losses for short sellers.
 
-## GameStop
-Recently, shorted stocks can increase for reasons that are not based on fundamentals. This means that a company's stock price can increase regardless of its current 
-and future profits. This makes it much less sustainable to short sell stocks and make a profit. The most recent example is Gamestop. 
+**GameStop
+
+Recently, shorted stocks can increase for reasons that are not based on fundamentals. This means that a company's stock price can increase regardless of its current and future profits. This makes it much less sustainable to short sell stocks and make a profit. The most recent example is Gamestop. 
 Individual investors using the forum WallStreetBets on Reddit, started buying into shares of GameStop, a video and computer-game retailer. 
 The influx of demand caused GameStop shares to soar, leading to billions of dollars in losses for hedge funds who had sold the stock short. 
 
 # Analysis
+
 In Python, I scraped stock and revenue information on both companies to visualize their stock prices in relation to their revenues. An example of the code for one 
 of the companies is as seen below:
 
@@ -45,7 +48,8 @@ tesla_stock = tesla.history(period="max")
 tesla_data = pd.DataFrame(tesla_stock)
 tesla_data.reset_index(inplace=True)
 
-html_data = requests.get('https://www.macrotrends.net/stocks/charts/TSLA/tesla/revenue?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork-23455606&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork-23455606&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork-23455606&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork-23455606&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ').text
+html_data = requests.get('https://www.macrotrends.net/stocks/charts/TSLA/tesla/revenue?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW
+-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork-23455606&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork-23455606&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork-23455606&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork-23455606&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ').text
 html_data = BeautifulSoup(html_data,'html5lib')
 tesla_revenue = pd.DataFrame(columns=["Date","Revenue"])
 tables = html_data.find_all("table")
