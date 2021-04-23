@@ -17,12 +17,12 @@ Usually, experienced investors such as hedge funds partake in short selling.
 
 Two popular examples of short selling gone wrong include:
 
-**Tesla
+##### Tesla
 
 Tesla is a stock that have been of interest to many investors over the past few years. A few years ago, many short sellers targeted Tesla, beliving that 
 the company's stock will decrease. However, the company's profits began increasing causing the company stock to rise. This led to  big losses for short sellers.
 
-**GameStop
+##### GameStop
 
 Recently, shorted stocks can increase for reasons that are not based on fundamentals. This means that a company's stock price can increase regardless of its current and future profits. This makes it much less sustainable to short sell stocks and make a profit. The most recent example is Gamestop. 
 Individual investors using the forum WallStreetBets on Reddit, started buying into shares of GameStop, a video and computer-game retailer. 
